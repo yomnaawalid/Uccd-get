@@ -1,9 +1,10 @@
+
 #include <stdio.h>
 int x,y;
 void swap(void);
-
-void main(void)
+void main()
 {
+
     printf("enter the value of x");
     scanf("%d",&x);
 
@@ -18,7 +19,8 @@ void main(void)
 }
 void swap(void)
 {
-int x=z;
-    x=y;
-    y=z;
+    int z;
+   z=x;
+   x=y;
+   y=z;
 }

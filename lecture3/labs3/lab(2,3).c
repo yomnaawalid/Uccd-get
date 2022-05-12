@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 
@@ -5,9 +6,9 @@ void main()
 {
     int i;
 
-    for(i=0;i<=15;i++)
+    for(i=0;i<=10;i++)
     {
-       printf("%d",i);
+       printf("%d\t",i);
     }
 
 

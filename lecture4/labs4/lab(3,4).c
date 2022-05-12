@@ -1,15 +1,15 @@
 #include <stdio.h>
-void my name (name);
+void my_name (name);
 
 void main(void)
 {
-    char name;
-    printf("enter youy name");
-    scanf("%c",&name);
-    printf("my name is ",name);
+    char name[0];
+    printf("enter your name");
+    scanf("%s",&name);
+    printf("my name is %s ",name);
 
 }
-void my name (name)
+void my_name (name)
 {
     return name;
 

@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int add(int x,int y);
 int subtract(int x,int y);
 int multiply(int x,int y);
@@ -14,7 +13,7 @@ int decrement(int x,int y);
 
 void main(void)
 {
-    int x,y,add,substr,multiply,divide,and,or,not,xor,reminder,increment,decrement;
+    int x,y,add,subtract,multiply,divide,and,or,not,xor,reminder,increment,decrement;
 
     printf("enter the value of x,y");
     scanf("%d%d",&x,&y);
@@ -24,12 +23,12 @@ void main(void)
     multiply=x*y;
     divide=x/y;
     and=x&y;
-    or=x||y;
+    or=x|y;
     not=x;
-    xor!=x;
+    xor=y^x;
     reminder=x%y;
-    increment=++(x+y);
-    decrement=--(x+y);
+    increment=++x;
+    decrement=--x;
 
     printf("add =%d\n",add);
     printf("subtract =%d\n",subtract);
@@ -50,7 +49,7 @@ int add(int x,int y)
 }
 int subtract(int x,int y)
 {
-  return(struct);
+  return(subtract);
 }
 int multiply(int x,int y)
 {

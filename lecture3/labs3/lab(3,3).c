@@ -25,13 +25,10 @@ void main()
     scanf("%d",&num9);
     printf("enter the value of num10:");
     scanf("%d",&num10);
-    for (int i=0;i<=10;i++)
-        {
-    sum=sum+i;
+
+    sum=sum+num1+num2+num3+num4+num5+num6+num7+num8+num9+num10;
     printf("the sum is %d\n",sum);
-        }
     average = sum / 10;
     printf("the average is %f",average);
 
 }
-
